@@ -1,5 +1,5 @@
 const config = {
-    stylesheet_path: "matrix/matrix_background.css",
+    stylesheet_path: "src/matrix_background.css",
     background: {
         char_list: `\`1234567890-=qwertyuiop[]\asdfghjkl;'zxcvbnm,./~!@#$%^&*()_+QWERTYUIOP{}|ASDFGHJKL:"ZXCVBNM<>?`,
         columns: 20,
