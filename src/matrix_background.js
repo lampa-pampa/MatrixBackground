@@ -64,15 +64,12 @@ class MatrixBackground
     {
         let row_index = 0
         const interval = setInterval(() => {
-            if(row_index >= this.rows)
-            {
-                clearInterval(interval)
-                return
-            }
             const cell = this.grid[column_index][row_index]
             const char = this._generateChar()
             this._animateChar(cell, char)
             ++row_index
+            if(row_index >= this.rows)
+                clearInterval(interval)
         }, this.char_delay)
     }
 
