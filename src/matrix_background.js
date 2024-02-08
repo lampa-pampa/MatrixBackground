@@ -91,7 +91,7 @@ class MatrixBackground
 
     _random(range)
     {
-        return Math.round(Math.random() * range)
+        return Math.floor(Math.random() * range)
     }
 }
 
