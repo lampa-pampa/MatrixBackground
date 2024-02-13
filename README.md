@@ -2,9 +2,11 @@
  This is a simple matrix background in JS.
 
 # Usage
- 1. Drop all files from `src/` to your project folder.
+ 1. Put `src` folder to your project folder.
  2. Add this line to `<head>` tag in your `index.html` file.
  ```
- <script src="path-to-setup.js" type="module"></script>
+ <script src="src/setup.js" type="module"></script>
  ```
- 3. Set the `stylesheet_path` (`stylesheet.css`) in `config.js` relatively to `index.html`.
+ # Note
+ If your src folder is not in the same directory as the `index.html`
+ you need to change `path_to_stylesheet` in `config.js` in reference to `index.html`.
