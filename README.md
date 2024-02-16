@@ -1,4 +1,4 @@
-# MatrixBackgroundJS
+# MatrixBackground
  This is a simple matrix background animation in JS.
  
 # Customization
