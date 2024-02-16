@@ -8,6 +8,6 @@
  * timings
  in `config.js`
  
- **NOTE**
+ **NOTE**\n
  If your `index.html` is not in the same directory as `src/`
  you need to update `stylesheet_path` in config file.
