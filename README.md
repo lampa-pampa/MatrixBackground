@@ -1,5 +1,5 @@
 # MatrixBackgroundJS
- This is a simple matrix background in JS.
+ This is a simple matrix background animation in JS.
  
 # Customization
  You can set characters list, columns and rows quantity and timings of this animation in `config.js`
