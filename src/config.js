@@ -1,14 +1,16 @@
 const config = {
     stylesheet_path: "src/matrix_background.css",
-    background: {
-        char_list: `\`1234567890-=qwertyuiop[]\asdfghjkl;'zxcvbnm,./~!@#$%^&*()_+QWERTYUIOP{}|ASDFGHJKL:"ZXCVBNM<>?`,
-        columns: 20,
-        rows: 16,
-        font_size: 24,
-        char_delay: 128,
-        char_duration: 3000,
-        stream_min_delay: 3000,
-        stream_random_delay_range: 2000
+    background_node_extra_classes: "", // separate with spaces
+    animation: {
+        char_list: `10`, // chars in stream
+        randomize_chars: false, // should chars in stream be randomized
+        columns: 20, // grid width
+        rows: 30, // grid height
+        font_size: 24, // in px
+        char_duration: 2000, // in ms
+        tick_delay: 100, // in ms
+        min_stream_delay: 10, // in ticks
+        random_stream_delay_range: 10, // in ticks
     },
 }
 
