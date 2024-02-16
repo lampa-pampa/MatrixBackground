@@ -3,7 +3,7 @@ const config = {
     background_node_extra_classes: "", // separate with spaces
     animation: {
         char_list: `10`, // chars in stream
-        randomize_chars: false, // should chars in stream be randomized
+        randomize_chars: true, // should chars in stream be randomized
         columns: 20, // grid width
         rows: 30, // grid height
         font_size: 24, // in px
