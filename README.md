@@ -6,8 +6,9 @@
  * characters list
  * columns and rows quantity
  * timings
- in `config.js`
- 
- **NOTE**\n
- If your `index.html` is not in the same directory as `src/`
+   in `config.js`
+
+
+ **NOTE**
+ If your `index.html` is not in the same directory as `src/`  
  you need to update `stylesheet_path` in config file.
